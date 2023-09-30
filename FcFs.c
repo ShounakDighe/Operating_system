@@ -3,12 +3,12 @@
 int main()
 {
 int n,at[10], st[10], bt[10], ct[10], tat[10], wt[10], i;
-printf("\nEnter number of processes: ");
+printf("\n Enter number of processes: ");
 scanf("%d",&n);
 
 for (i=0;i<n;i++)
 {
-printf("\nEnter arrival time and burst time for process %d: ",i+1);
+printf("\n Enter arrival time and burst time for process %d: ",i+1);
 scanf("%d%d",&at[i],&bt[i]);
 }
 
@@ -35,7 +35,8 @@ avgtat += tat[i];
 avgwt += wt[i];
 }
 
-//printf("__P%d__%d|",i+1,sum);
+int sum=st[i]+bt[i]+ct[i];
+printf("__P%d__%d|",i+1,sum);
 avgtat/=n;
 avgwt/=n;
 
