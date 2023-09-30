@@ -54,8 +54,8 @@ if(i==num)
 }
 
 
-printf("\n\nPId\tAT\tBT\tCT\tTAT\tWT\n");
+printf("\n\nPId\tAT\tBT\tCT\tTAT\tWT\n\n");
 
 for(int i=0;i<num;i++)
-{printf("P%d\t%d\t%d\t%d\t%d\t%d\n",i,At[i],Bt[i],Ct[i],Tat[i],Wt[i]);}
+{printf("P%d\t%d\t%d\t%d\t%d\t%d\n\n",i,At[i],Bt[i],Ct[i],Tat[i],Wt[i]);}
 }
